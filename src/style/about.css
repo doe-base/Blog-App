@@ -1,0 +1,133 @@
+.about-hero-disc{
+    width: 100vw;
+    height: 60vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.401), rgba(0, 0, 0, 0.474)),url(../images/bg2.jpg);
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: fixed;
+    margin-bottom: 6rem;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+}
+
+#about{
+    color: #fff;
+    background: rgb(0, 0, 0) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-hero-disc h1{
+    font-size: 10vw;
+}
+
+.about-links-holder{
+    width: auto;
+    display: flex;
+}
+.about-links-holder > a{
+    display: inline !important;
+    margin: 0 0.8rem;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#about-image{
+    width: 100%;
+}
+
+.real-about-content{
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+.first-paragraph{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 7rem;
+}
+.second-paragraph{
+    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    margin-bottom: 7rem;
+}
+
+
+#about form{
+    display: grid;
+    max-width: 400px;
+    margin-bottom: 7rem;
+}
+
+#about form textarea{
+    width: 100%;
+    padding: 0.3rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.212);
+    color: #fff;
+}
+#about form input{
+    width: 100%;
+    height: 2.2rem;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.212);
+    color: #fff;
+}
+#about form button{
+    height: 2.2rem;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    background-color: #54b3d6;
+}
+
+@media (max-width: 767px) {
+    .real-about-content{
+        padding: 0 2rem;
+    }
+
+    .first-paragraph{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1.3rem;
+        margin-bottom: 5rem;
+    }
+
+    .second-paragraph{
+        width: 60%;
+        font-size: 1rem;
+        margin: 1rem 0;
+        margin-bottom: 5rem;
+    }
+
+    .send-message{
+        font-size: 1.4rem;
+    }
+
+    .about-hero-disc > h1{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width:467px) {
+    .second-paragraph{
+        width: 80%;
+    }
+}

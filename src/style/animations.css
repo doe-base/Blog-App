@@ -1,0 +1,68 @@
+/* scroll icon animations */
+@keyframes bounce {
+    from {
+        transform: translateY(-40%);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateY(90%);
+        opacity: 1;
+    }
+}
+
+svg.scroll-icon{
+    animation: bounce 1.4s infinite;
+}
+
+
+
+@keyframes come-down {
+    from{
+        transform: translateY(-100%);
+    }
+    
+    to{
+        transform: translateY(0%);
+    }
+}
+nav.fixed-nav{
+    animation: come-down 0.3s;
+    
+}
+
+
+/* Welcome page effect */
+@keyframes welcome {
+    from{
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    
+    to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+div.hero-welcome-text{
+    animation: welcome 0.9s;
+}
+
+
+/* Blog Card Hover Effect */
+.lestest-holder{
+    cursor: pointer;
+}
+.lestest-holder:hover .social-icons-holder {
+    visibility: visible;
+    opacity: 1;
+}
+.lestest-holder:hover .time {
+    color: #000;
+}
+.lestest-holder:hover .title {
+    color: gray;
+}
+
+
